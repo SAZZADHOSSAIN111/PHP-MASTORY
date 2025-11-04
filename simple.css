@@ -34,6 +34,9 @@
     --code: #f06292;
     --preformatted: #ccc;
     --disabled: #111;
+
+
+    
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
