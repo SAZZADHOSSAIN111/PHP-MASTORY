@@ -36,7 +36,7 @@ echo "----\n";
 
 $name = 'Jannis';
 var_dump($name === 'Jannis');
-var_dump($name !== 'Jannis');
+var_dump($name == "Jannis" );
 
 $age = 30;
 var_dump($age === 30);
