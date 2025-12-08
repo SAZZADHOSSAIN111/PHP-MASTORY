@@ -1,5 +1,3 @@
-<!-- Should be turned into a header image -->
-
 <?php 
 
 $pageTitle= "Menu";
