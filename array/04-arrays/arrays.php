@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./simple.css" />
     <title>Document</title>
 </head>
-<body>
+<body> 
 <pre><?php
 
 $categories = ['Programming', 'Business', 'Art & Drawing', 'Self improvment', 'History'];

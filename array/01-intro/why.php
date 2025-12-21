@@ -24,8 +24,6 @@ $category5 = 'History';
 </ul>
 
 
-
-
 <select>
     <option><?php echo $category1; ?></option>
     <option><?php echo $category2; ?></option>
