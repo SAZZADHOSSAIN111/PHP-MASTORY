@@ -14,11 +14,10 @@
     <h1><?php echo $_GET['book']; ?></h1>
 <?php endif; ?>
 
-<form action="form.php" method="GET">
+<form action="form.php" method="GET"> 
     <input type="text" name="book" value="<?php if (!empty($_GET['book'])) echo $_GET['book']; ?>" />
     <input type="submit" value="Submit!" />
 </form>
-
 
 
 </body>

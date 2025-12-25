@@ -19,11 +19,11 @@
 
 <?php /*  
 <a href="querystring.php?book=Harry Potter">Harry Potter</a>
-<a href="querystring.php?book=Beauty & the Beast">Beauty & the Beast</a>
+<a href="querystring.php?book=Beauty & the Beast">Beauty & the Beast</a>s
 */?>
 
 <a href="querystring.php?<?php echo http_build_query(['book' => 'Harry Potter']); ?>">Harry Potter</a>
 <a href="querystring.php?<?php echo http_build_query(['book' => 'Beauty & the Beast', 'author' => 'Gabrielle-Suzanne Barbot de Villeneuve']); ?>">Beauty & the Beast</a>
-<a href="querystring.php?<?php echo http_build_query(['book' => 'leorivai']); ?>">Leoravai</a>
+<a href="querystring.php?<?php echo http_build_query(['book' => 'Trying Test']); ?>">Trying Test</a>
 </body>
 </html>
