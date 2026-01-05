@@ -6,15 +6,12 @@
     <link rel="stylesheet" type="text/css" href="./simple.css" />
     <title>Document</title>
 </head>
-<body><pre><?php
+<body>
+
+<form action="xsspractice.php" method="$_GET">
+    <input type="text" name="name" value="<?php if (!empty($_GET["name"])) {echo $_GET["name"];} ?>" />>
+
+</form>
     
-    var_dump($_GET);
-
-?></pre>
-
-<?php if (!empty($_GET['book'])): ?>
-    <h1><?php echo $_GET['book']; ?></h1>
-<?php endif; ?>
- 
 </body>
 </html>

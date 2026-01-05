@@ -26,4 +26,4 @@
 <p><?php echo e($course); ?></p>
 
 </body>
-</html>
+</html> 
