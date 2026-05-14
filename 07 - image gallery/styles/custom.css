@@ -1,8 +1,13 @@
 .gallery-item{
-    /* background-color: blue; */
-    display: block;
-    flex-direction: row;
+    color: red;
+    text-align: center;
+    text-decoration: none;
     display: grid;
     grid-template-columns: auto auto auto;
-    text-align: center;
+}
+
+.gallery-item:visited{
+    color: rgb(0, 255, 55);
+  
+
 }
