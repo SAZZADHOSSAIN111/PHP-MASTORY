@@ -1,0 +1,7 @@
+.gallery-item{
+    /* background-color: blue; */
+    display: block;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
