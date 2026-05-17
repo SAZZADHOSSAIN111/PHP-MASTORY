@@ -7,6 +7,7 @@ $imageTitles = [
     'IMG_0219.jpg' => 'Serene River and Hillside Castle',
     'IMG_0929.jpg' => 'Autumn Mountain Landscape',
     'IMG_2384.jpg' => 'Beachfront House Oasis',
+    '003.jpg' => 'Tracy 5180',
 ];
 
 
