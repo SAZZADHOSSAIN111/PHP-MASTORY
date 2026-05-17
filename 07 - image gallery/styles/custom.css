@@ -2,22 +2,18 @@
     color: red;
     text-align: center;
     text-decoration: none;
-<<<<<<< HEAD
-    display: grid;
-    grid-template-columns: auto auto auto;
-
-}
-
-.gallery-item:visited{
-    color: rgb(150, 64, 255);
-}
-=======
     display: block;
     height: auto;
     width: 20rem;
     border: 2px solid rgb(122, 112, 112);
     border-radius: 10px;
 }
+
+.gallery-item:visited{
+    color: rgb(150, 64, 255);
+}
+
+
 
 .title-text{
     font-size: 20px;
@@ -42,4 +38,3 @@
     row-gap: 20px;
     column-gap: 20px;
 }
->>>>>>> 71faab13490a7c6897c28b7b003f2151e7695df4
