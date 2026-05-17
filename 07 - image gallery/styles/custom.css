@@ -2,6 +2,7 @@
     color: red;
     text-align: center;
     text-decoration: none;
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: auto auto auto;
 
@@ -10,3 +11,35 @@
 .gallery-item:visited{
     color: rgb(150, 64, 255);
 }
+=======
+    display: block;
+    height: auto;
+    width: 20rem;
+    border: 2px solid rgb(122, 112, 112);
+    border-radius: 10px;
+}
+
+.title-text{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.gallery-image{
+    width: 20rem;
+    height: 20rem;
+    aspect-ratio: 1920/1440;
+    object-fit: cover;
+}
+.gallery-item:visited{
+    color: rgb(0, 153, 33);
+  
+}
+
+.gallery-elements{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+>>>>>>> 71faab13490a7c6897c28b7b003f2151e7695df4
