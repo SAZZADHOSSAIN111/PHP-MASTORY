@@ -4,10 +4,9 @@
     text-decoration: none;
     display: grid;
     grid-template-columns: auto auto auto;
+
 }
 
 .gallery-item:visited{
-    color: rgb(0, 255, 55);
-  
-
+    color: rgb(150, 64, 255);
 }
