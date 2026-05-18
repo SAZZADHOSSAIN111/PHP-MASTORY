@@ -27,7 +27,7 @@
     object-fit: cover;
 }
 .gallery-item:visited{
-    color: rgb(0, 153, 33);
+    color: rgb(140, 0, 153);
   
 }
 
@@ -39,3 +39,4 @@
     column-gap: 20px;
     justify-content: center;
 }
+
