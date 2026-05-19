@@ -18,6 +18,8 @@ include './inc/images.inc.php';
             The image is not loading
         </div>
 
-<?php endif; ?>
+        
+        <?php endif; ?>
+ <a href="gallery.php"> Back to Gallery </a>
 
 <?php include './views/footer.php'; ?>
