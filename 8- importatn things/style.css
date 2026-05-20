@@ -1,0 +1,20 @@
+.parentdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advancepre1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(185, 185, 185);
+    width: 60%;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
