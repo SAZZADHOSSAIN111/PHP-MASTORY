@@ -13,6 +13,7 @@
         if( isset($_GET['lexus'])) {
             $lux = (int)  $_GET['lexus'];
             var_dump($lux); 
+            echo '<br/>';
             var_dump($lux * 12);
             }
         ?>
