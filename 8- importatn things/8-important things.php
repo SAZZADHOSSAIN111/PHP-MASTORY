@@ -17,6 +17,7 @@
             var_dump($lux * 12);
             echo '<br/>';
             var_dump($lux . " " . "love");
+            echo '<br/>';
             }
         ?>
 
