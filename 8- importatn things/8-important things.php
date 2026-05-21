@@ -20,6 +20,11 @@
             }
         ?>
 
+        <?php
+            $name = $_GET['rize'] ?? "Nothing added on the url";
+            var_dump($name);
+        ?>
+
         <!-- write a name called lexus on the ulr and add a value so you can see the output. -->
 
     </div>
