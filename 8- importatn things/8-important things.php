@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,8 @@
             var_dump($lux); 
             echo '<br/>';
             var_dump($lux * 12);
+            echo '<br/>';
+            var_dump($lux . " " . "love");
             }
         ?>
 
