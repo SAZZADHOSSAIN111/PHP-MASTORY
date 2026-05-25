@@ -23,7 +23,10 @@
 
         <?php
             $name = $_GET['rize'] ?? "Nothing added on the url";
+            echo '<br/>';
             var_dump($name);
+            echo '<br/>';
+            var_dump(__DIR__);
         ?>
 
         <!-- write a name called lexus on the ulr and add a value so you can see the output. -->
