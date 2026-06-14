@@ -7,7 +7,8 @@
     <title>NESTED ARREY</title>
 </head>
 <body>
-    <pre><?php
+    <div class="the-first-try">
+        <div  class="pree"><?php
 
         $cars =[
             [
@@ -20,20 +21,23 @@
                 'Name' => 'Toyota',
                 'Brand-Origin' => 'Japan',
                 'Color' => 'Purple',
-                "Description" => "is simply dummy text of the printing and typesetting <br> industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since 1966, <br> when designers at Letraset and James Mosley, the librarian at St Bride Printing <?Library, took a 1914 Cicero translation and scrambled it to make dummy <br> text for Letraset's Body Type sheets. It has survived not only many decades, but also the <br>leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to the"
+                "Description" => "is simply dummy text of the printing and typesetting <br> industry. <br> Lorem Ipsum has been the industry's standard dummy <br> text ever since 1966, <br> when designers at Letraset and James Mosley, the librarian at St Bride Printing <?Library, took a 1914 <br> Cicero translation and scrambled it to make dummy <br> text for Letraset's Body Type sheets. It has survived not only many decades, but also the <br>leap into electronic <br> typesetting, remaining essentially unchanged. It was popularised thanks to the"
                 ],
             [
                 'Name' => 'BYD',
                 'Brand-Origin' => 'China',
                 'Color' => 'Purple',
-                "Description" => "is simply dummy text of the printing and types<br>etting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at <br> Letraset and James Mosley, the librarian at St Bride Printing <?Library, took a 1914 Cicero translation and scrambled <br>it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also <br>the leap into electronic typesetting, remaining essentially unchanged.<br> It was popularised thanks to the"
+                "Description" => "is simply dummy text of the printing and types setting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at  Letraset and James Mosley, the librarian at St Bride Printing <?Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also <br>the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to the"
                 ],
             ];
-                
-    var_dump($cars[0]['Name']); 
-    var_dump($cars[0]['Brand-Origin']);
-
-   ?> </pre>
     
+        foreach( $cars as $car) {
+        var_dump($car['Name']);
+        var_dump($car['Brand-Origin']);
+        var_dump($car['Description']);
+         }
+
+         ?> </div> 
+</div>
 </body>
 </html>
