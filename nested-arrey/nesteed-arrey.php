@@ -10,6 +10,9 @@
     <div class="the-first-try">
         <div  class="pree"><?php
 
+        function e($value) {
+    return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
+            }
         $cars =[
             [
                 'Name' => 'BMW M4',
@@ -32,12 +35,21 @@
             ];
     
         foreach( $cars as $car) {
-        var_dump($car['Name']);
+        var_dump ($car['Name']);
         var_dump($car['Brand-Origin']);
         var_dump($car['Description']);
          }
 
          ?> </div> 
 </div>
+
+    <div class= "DetailsS">
+        <?php foreach($cars as $car): ?>
+            <details class= "details">
+                <summary>Name: <?php echo e($car['Name']); ?> , Brand Origin:  <?php echo e($car['Brand-Origin']); ?> </summary>
+                <p><?php echo e($car['Description']); ?> </p>
+            </details>
+        <?php endforeach; ?>  
+    </div>
 </body>
 </html>
