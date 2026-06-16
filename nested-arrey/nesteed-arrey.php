@@ -56,6 +56,16 @@
                     'BYD 06',
                 ]
                 ],
+
+                [
+                'Name' => 'Mercedes',
+                'Brand-Origin' => 'Germany',
+                'Color' => 'RED',
+                "Description" => "is simply dummy text of the printing and types setting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at  Letraset an",
+                'Model' =>[
+                    
+                ]
+                ]
             ];
     
        /* foreach( $cars as $car) {
@@ -72,11 +82,13 @@
             <details class= "details">
                 <summary>Name: <?php echo e($car['Name']); ?> , Brand Origin:  <?php echo e($car['Brand-Origin']); ?> </summary>
                 <p><?php echo e($car['Description']); ?> </p>
+                <?php if (!empty($car['Model'])): ?>
                 <ul>
                     <?php foreach( $car['Model'] as $model): ?>
                         <li><?php echo e($model); ?> </li>
                     <?php endforeach; ?> 
                 </ul>
+                <?php endif ?>
             </details>
         <?php endforeach; ?>  
     </div>
